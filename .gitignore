@@ -1,0 +1,12 @@
+test_task/
+
+__pycache__/
+*.py[cod]
+
+.idea/
+
+
+*.log
+*.env
+*.sqlite3
+*.DS_Store
