@@ -41,7 +41,6 @@ async def redirect(short_id: str):
 async def fetch_external_data():
     """
     Fetches an external data. This is a simple version.
-    :return:
     """
     async with httpx.AsyncClient() as client:
         response = await client.get("https://api.agify.io?name=alice")
