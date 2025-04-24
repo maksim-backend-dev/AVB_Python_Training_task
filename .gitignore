@@ -5,7 +5,7 @@ __pycache__/
 
 .idea/
 
-
+*.db
 *.log
 *.env
 *.sqlite3
