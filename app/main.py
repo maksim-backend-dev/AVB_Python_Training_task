@@ -1,8 +1,8 @@
 import uvicorn
 from fastapi import FastAPI
-from routes import router
-import models
-from database import engine
+from .routes import router
+from . import models
+from .database import engine
 
 """ Module for launching FastAPI application """
 

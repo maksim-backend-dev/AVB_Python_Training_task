@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException, Depends
 from fastapi.responses import RedirectResponse
-from database import get_db
-from schemas import URLRequest
+from .database import get_db
+from .schemas import URLRequest
 from sqlalchemy.orm import Session
-from models import URLS
+from .models import URLS
 import uuid
 import httpx
 
